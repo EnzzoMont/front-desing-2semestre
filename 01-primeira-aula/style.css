@@ -1,0 +1,59 @@
+form {
+    background-color: blueviolet;
+}
+
+header{
+    width:80%;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 3rem 0;
+    box-sizing: border-box;
+}
+
+nav{
+    width: 100%;
+    display: inline-block;
+}
+
+nav img{
+    float: left;
+    width: 100px;
+}
+
+nav ul{
+    font-weight: 300;
+    list-style: none;
+    float: right;
+    position: relative;
+}
+
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+}
+
+/* Pegar o último botão */
+nav ul li a :last-child{
+    margin-left: 10px;
+}
+
+.line{
+    /* O solid é o estilo da linha */
+    border-left: 1px solid white;
+}
+
+.btn-outline{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+.btn{
+    text-decoration: none;
+    color: wjie;
+    border: 1px solid #8b5cfc;
+    background-color: #8b5cfc;
+    border-radius: 5px;
+    padding: 10px 15px;
+}
